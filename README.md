@@ -5,7 +5,7 @@ package-graph-tools-test
 脚本main.js
 
 * 测试根目录依赖：
-``` json
+```json
 "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,7 +13,7 @@ package-graph-tools-test
   }
 ```
 * 测试输出依赖节点：
-```json
+```js
 [
   { name: 'react-ssr', version: '1.0.0' },
   { name: 'react', version: '18.2.0' },
@@ -28,7 +28,7 @@ package-graph-tools-test
 
 ```
 * 测试输出依赖关系：
-```json
+```js
 [
   {
     source: { name: 'react-ssr', version: '1.0.0' },
