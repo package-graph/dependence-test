@@ -1,0 +1,16 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "react-ssr-demo",
+  "main": "/src/index.jsx",
+  "author": "juanxincai",
+  "scripts": {
+    "build:client": "NODE_ENV=development webpack -w"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  }
+}
